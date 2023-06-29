@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgba(148, 137, 137, 0.336);
+}
+
+div{
+    max-width: 1300px;
+}
+
+
+h1{
+    text-align: center;
+    margin: 0 auto;
+    padding: 8px;
+    margin-bottom: 8px;
+}
+
+form{
+    display: flex;
+    justify-content: center;
+}
+
+input{
+    margin-right: 8px;
+    padding: 8px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+ul li{
+    margin-top: 16px;
+    text-align: center;
+    padding: 8px;
+    cursor: pointer;
+}
+

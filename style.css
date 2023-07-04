@@ -6,12 +6,13 @@
 
 body{
     background-color: rgba(148, 137, 137, 0.336);
+    width: 100%;
+    height: 600px;
 }
 
-div{
-    max-width: 1300px;
+.container{
+    margin-top: 200px;
 }
-
 
 h1{
     text-align: center;

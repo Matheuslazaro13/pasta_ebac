@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    max-width: 1024px;
+    text-align: center;
+    margin: 0 auto;
+    background-color: rgba(186, 189, 192, 0.938);
+}
+
+form{
+    width: 500px;
+    margin: 0 auto;
+    margin-top: 8px;
+}
+
+label{
+    margin-top: 8px;
+}
+
+input{
+    text-align: center;
+}
+
+button{
+    margin-top: 16px;
+}

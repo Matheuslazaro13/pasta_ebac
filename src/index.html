@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="@@ENDERECO_DO_CSS">
+    <title>sorteio</title>
+</head>
+<body>
+    <main>
+        <h1>sorteio</h1>
+        <form id="form-sorteador">
+           <div class="container">
+            <label for="numero-maximo">Numero maximo:</label>
+            <input type="number" id="numero-maximo" required value="2" step="1" min="2">
+           </div>
+           <button id="botao" type="submit">sortear</button>
+        </form>
+
+    </main>
+    <div class="resultado">
+        o numero sorteado foi <span id="resultado-valor"></span>
+    </div>
+    <script src="@@ENDERECO_DO_JS"></script>
+</body>
+</html>
